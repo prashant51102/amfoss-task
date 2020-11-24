@@ -2,7 +2,7 @@
 2.downloaded rufus3.1 portable version to create a bootable device 
 3.watched a youtube video on creating a bootable usb device....and also read an article about the same somewhere on ubuntu page
 4.created a iso backup for my laptop if in case anything goes wrong (this thing just saved my laptop twice...you will know why just keep on reading )
-5.after that i had to disable secure boot and fast boot in my laptop,(in this process i came to know that BIOS is replaced by UFEI which i more powerful than BIOS and did also
+5.after that i had to disable secure boot and fast boot in my laptop,also changed the boot order in UFEI seetings(in this process i came to know that BIOS is replaced by UFEI which i more powerful than BIOS and did also
 watcha youtube video of techquickie expalining limitations of BIOS and advatage of UFEI over BIOS)
 6.now i plugged the bootable usb containing ubuntu and started installing it
 7.the first installation freezed and i had to do it again,the same problem occured for 3 time, after going through some articles on internet  i chose "safe graphics" mode to intall ubuntu
