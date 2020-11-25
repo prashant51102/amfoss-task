@@ -6,7 +6,7 @@
 6.now i plugged the bootable usb containing ubuntu and started installing it
 7.the first installation freezed and i had to do it again,the same problem occured for 3 time, after going through some articles on internet  i chose "safe graphics" mode to intall ubuntu
 8.this time the installation was succesful to the ubuntu-os was corrupt...left the task (actually the pendrive was broken and i was doubting my self..funny na?)
-9.tried it again after a week and installed ubuntu through custom partition method (again learned how to install through custom partition from  https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/ )
+9.tried it again after a week and installed ubuntu through custom partition method on an external HDD disk (again learned how to install through custom partition from  https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/ )
 10.hey thats it...it was a really tedious journey just coz of the faulty pendrive but the final result did gave me really immense satisfaction and joy  
 
 THERE IS ALSO A SITE BY MYSELF WHERE YOU CAN READ ADDITIONALLY.CLIK ON THE LINL TO GO TO MY SITE https://prashantubuntu.wordpress.com/
