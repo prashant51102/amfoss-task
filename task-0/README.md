@@ -1,3 +1,5 @@
+THE FIRST 10 POINTS COVER AN OVERVIEW OF MY JOURNEY "INSTALLING UBUNTU" if you want to read in a little detail about the procedure and steps of intallation process please do visit my site link given at bottom of this file.
+
 1.downloaded ubuntu 20.04.1 LTS from https://ubuntu.com/download/desktop
 
 2.downloaded rufus3.1 portable version to create a bootable device 
