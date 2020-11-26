@@ -1,0 +1,76 @@
+#include<stdio.h>
+#include<cs50.h>
+#include<math.h>
+
+void process(long n)
+
+{
+    long dnum=n;
+    int count=1;
+    while(dnum>0)
+    {
+        dnum=dnum/10;
+        count++;
+    }
+
+    long dnum2 = n;
+    int sum=0;
+
+    for(int i = 1; i <= count; i++)
+    {
+        int singlenum=dnum2%10;
+        if(i%2==0)
+        {
+        if (singlenum*2>9)
+        {sum=sum+((singlenum*2)-9);
+        }
+        else
+        {sum=sum+singlenum*2;
+        }
+
+        }
+        else
+        {
+        sum+=singlenum;
+        }
+        dnum2=dnum/10;
+    }
+
+
+    if (count==15 && sum%2==0)
+    {
+    printf("AMEX\n");
+    }
+    if(count == 16 && sum%2==0)
+    {
+    printf("MASTERCARD\n");
+    }
+    if((count == 13 || count == 16 )&& sum%2==0)
+    {
+    printf("VISA\n");
+    }
+    else
+    {
+    printf("INVALID\n");
+    }
+
+}
+
+
+int main()
+
+{ long num;
+  num=get_long("enter your credit card number:");
+  process(num);
+  return 0;
+
+}
+
+output:
+~/ $ cd pset1
+~/pset1/ $ cd credit
+~/pset1/credit/ $ make credit
+clang -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow    credit.c  -lcrypt -lcs50 -lm -o credit
+~/pset1/credit/ $ ./credit
+enter your credit card number:4111111111111111INVALID
+~/pset1/credit/ $ 
