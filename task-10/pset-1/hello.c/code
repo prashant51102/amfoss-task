@@ -1,0 +1,26 @@
+my code:
+
+#include<stdio.h>
+#include<cs50.h>
+
+int main()
+{
+ string name = get_string("whats your name:");
+ printf("hello,%s\n",name);
+ return 0;
+
+}
+
+
+output terminal :
+
+~/ $ cd pset1
+~/pset1/ $ cd hello
+~/pset1/hello/ $ make hello
+clang -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow    hello.c  -lcrypt -lcs50 -lm -o hello
+~/pset1/hello/ $ ./hello
+whats your name:prashanth kumar
+hello,prashanth kumar
+~/pset1/hello/ $ 
+
+
