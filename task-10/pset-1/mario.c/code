@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main()
+{
+int n=0;
+do
+{
+printf("enter height:");
+n=get_int("enter height:");
+} while (n<0 || n>23);
+
+for (int i=0; i<n; i++)
+{printf(" ");
+for (int x=0; x<i+2; x++)
+{ printf("#");     }
+  printf("\n");
+}
+ return 0;
+}
+
+
+output:
+~/ $ cd pset1
+~/pset1/ $ cd mario
+~/pset1/mario/ $ cd less
+~/pset1/mario/less/ $ make mario
+clang -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow    mario.c  -lcrypt -lcs50 -lm -o mario
+~/pset1/mario/less/ $ ./mario
+enter height:enter height:7
+ ##
+ ###
+ ####
+ #####
+ ######
+ #######
+ ########
+~/pset1/mario/less/ $ 
