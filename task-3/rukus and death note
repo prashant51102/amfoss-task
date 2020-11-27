@@ -1,4 +1,4 @@
-//although my output is correct hacker rank shows test cases wrong...i dint have enough time so just uploaded the code here.
+//had to break my head to get this thing....although after completion it felt to be easy.
 
 
 #include <cmath>
@@ -19,18 +19,15 @@ int getMin(int arr[], int n)
 int main() {
     int variety;
     cin>>variety;
-    cout<<"\n";
     int req[variety],noavail[variety];
 
         for(int i=0;i<variety;i++)
         {cin>>req[i]; }
-        cout<<"\n";
 
         for(int j=0;j<variety;j++)
         {
          cin>>noavail[j];
         }
-         cout<<"\n";
         
           for(int k=0;k<variety;k++)
         {
