@@ -1,0 +1,3 @@
+watched some youtube videos and read 3 to 4 articles but cant figure out what to do....
+
+to be simple in words:things went really abstract
